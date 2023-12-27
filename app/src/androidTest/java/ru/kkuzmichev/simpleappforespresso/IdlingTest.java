@@ -40,7 +40,7 @@ public class IdlingTest {
     }
 
     @Test
-    public void testName() {
+    public void testOpenGallery() {
         ViewInteraction menu = onView(isAssignableFrom(AppCompatImageButton.class));
         menu.check(matches(isDisplayed()));
         menu.perform(click());
